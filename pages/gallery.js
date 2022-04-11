@@ -1,0 +1,31 @@
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+function gallery() {
+  const images = [
+    "1.jpeg",
+    "2.jpeg",
+    "3.jpeg",
+    "4.jpeg",
+    "5.jpeg",
+    "6.jpeg",
+    "7.jpeg",
+    "8.jpeg",
+    "9.jpeg",
+  ];
+  const Gallery = images.map((image) => {
+    return <img src={`/gallery/${image}`} alt="" className=" shadow-lg rounded opacity-80 hover:opacity-100 transition-all duration-200"/>;
+  });
+
+  return (
+    <div className="flex flex-col min-h-screen bg-sammyBirdGray">
+      <Navbar />
+      <div className=" flex-grow max-w-5xl mx-auto py-10">
+        <div className="grid grid-cols-3 gap-5">{Gallery}</div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default gallery;
