@@ -14,7 +14,7 @@ function gallery() {
     "9.jpeg",
   ];
   const Gallery = images.map((image) => {
-    return <img src={`/gallery/${image}`} alt="" className=" shadow-lg rounded opacity-80 hover:opacity-100 transition-all duration-200"/>;
+    return <img key={image} src={`/gallery/${image}`} alt="" className=" shadow-lg rounded opacity-80 hover:opacity-100 transition-all duration-200"/>;
   });
 
   return (
