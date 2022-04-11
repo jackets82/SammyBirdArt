@@ -10,12 +10,12 @@ function index() {
           <Image src="/splashPage.jpeg" layout="fill" objectFit="contain" />
         </div>
         <Link href="/about">
-          <div className=" text-2xl absolute top-48 font-serif text-opacity-70 text-white hover:cursor-pointer hover:text-opacity-100 transition-all duration-200">
+          <div className=" text-2xl absolute top-36 font-serif text-opacity-70 text-white hover:cursor-pointer hover:text-opacity-100 transition-all duration-200">
             ENTER
           </div>
         </Link>
 
-        <div className=" absolute bottom-40 flex gap-3">
+        <div className=" absolute bottom-28 flex gap-3">
           <SplashButtons
             link="https://www.facebook.com/sammybirdart/photos/?ref=page_internal"
             fill="fill-blue-500"
