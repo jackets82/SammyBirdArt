@@ -21,7 +21,7 @@ function gallery() {
     <div className="flex flex-col min-h-screen bg-sammyBirdGray">
       <Navbar />
       <div className=" flex-grow max-w-5xl mx-auto py-10">
-        <div className="grid grid-cols-3 gap-5">{Gallery}</div>
+        <div className="grid lg:grid-cols-3 gap-5 grid-cols-1">{Gallery}</div>
       </div>
       <Footer />
     </div>
