@@ -15,7 +15,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className=" flex gap-5 text-sm tracking-wider">
+        <div className=" md:flex gap-5 text-sm tracking-wider hidden">
           <NavbarButtons text="HOME" link="/" />
           <NavbarButtons text="ABOUT" link="/about" />
           <NavbarButtons text="GALLERY" link="/gallery" />
