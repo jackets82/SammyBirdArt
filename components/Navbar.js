@@ -36,18 +36,18 @@ function Navbar() {
 
             <Menu.Items>
               <div className=" absolute -bottom-[185px] w-48 rounded bg-white p-3 z-50 flex flex-col right-1 gap-5 origin-top-right">
-                <div className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
+                <a className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
                   <NavbarButtons text="HOME" link="/" />
-                </div>
-                <div className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
+                </a>
+                <a className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
                   <NavbarButtons text="ABOUT" link="/about" />
-                </div>
-                <div className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
+                </a>
+                <a className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
                   <NavbarButtons text="GALLERY" link="/gallery" />
-                </div>
-                <div className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
+                </a>
+                <a className=" hover:bg-sammyBirdGray hover:-m-2 hover:p-2 duration-50 transition-all rounded">
                   <NavbarButtons text="CONTACT" link="/" />
-                </div>
+                </a>
               </div>
             </Menu.Items>
           </Menu>
