@@ -21,7 +21,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="md:hidden pr-5 cursor-pointer">
+        <div className="md:hidden pr-5 cursor-pointer outline-none">
           <Menu>
             <Menu.Button>
               <svg
